@@ -25,7 +25,7 @@ const Cart = (props) => {
   const submitOrderHandler = async (userData) => {
     setIsSubmitting(true);
     await fetch(
-      "https://react-http-ccb1c-default-rtdb.asia-southeast1.firebasedatabase.app/orders.json",
+      "https://food-9defe-default-rtdb.asia-southeast1.firebasedatabase.app/orders.json",
       {
         method: "POST",
         body: JSON.stringify({
